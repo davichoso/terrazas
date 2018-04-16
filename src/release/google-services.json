@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "190246177152",
+    "firebase_url": "https://directed-hour-87015.firebaseio.com",
+    "project_id": "directed-hour-87015"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190246177152:android:83d480e41c557ad1",
+        "android_client_info": {
+          "package_name": "es.lasterrazasdebecerril.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190246177152-ani7i8bpksvso48he7hehdlmgsbod8br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtiinqrBI4laQ4jyr8xbEGF3YUr2ecyAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
