@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/regular/hinted-Montserrat-Regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('../fonts/montserrat/regular/hinted-Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/montserrat/regular/hinted-Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/montserrat/regular/hinted-Montserrat-Regular.woff') format('woff'),
+    url('../fonts/montserrat/regular/hinted-Montserrat-Regular.ttf') format('truetype'),
+    url('../fonts/montserrat/regular/hinted-Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/regular/hinted-Roboto-Regular.eot');
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+    url('../fonts/roboto/regular/hinted-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto/regular/hinted-Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/roboto/regular/hinted-Roboto-Regular.woff') format('woff'),
+    url('../fonts/roboto/regular/hinted-Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/roboto/regular/hinted-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto_bold';
+    src: url('../fonts/roboto/bold/hinted-Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('../fonts/roboto/bold/hinted-Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto/bold/hinted-Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/roboto/bold/hinted-Roboto-Bold.woff') format('woff'),
+    url('../fonts/roboto/bold/hinted-Roboto-Bold.ttf') format('truetype'),
+    url('../fonts/roboto/bold/hinted-Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/philosopher/regular/hinted-Philosopher.eot');
+    src: local('Philosopher'),
+    url('../fonts/philosopher/regular/hinted-Philosopher.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/philosopher/regular/hinted-Philosopher.woff2') format('woff2'),
+    url('../fonts/philosopher/regular/hinted-Philosopher.woff') format('woff'),
+    url('../fonts/philosopher/regular/hinted-Philosopher.ttf') format('truetype'),
+    url('../fonts/philosopher/regular/hinted-Philosopher.svg#Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Philosopher_bold';
+    src: url('../fonts/philosopher/bold/hinted-Philosopher-Bold.eot');
+    src: local('Philosopher Bold'), local('Philosopher-Bold'),
+    url('../fonts/philosopher/bold/hinted-Philosopher-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/philosopher/bold/hinted-Philosopher-Bold.woff2') format('woff2'),
+    url('../fonts/philosopher/bold/hinted-Philosopher-Bold.woff') format('woff'),
+    url('../fonts/philosopher/bold/hinted-Philosopher-Bold.ttf') format('truetype'),
+    url('../fonts/philosopher/bold/hinted-Philosopher-Bold.svg#Philosopher-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.llamanos {
+    background-image: url("../img/bg-button-llamanos.png");
+    height: 53px;
+}
+.localizacion {
+    background-image: url("../img/bg-button-localizacion.png");
+    height: 53px;
+}
+.la_carta {
+    background-image: url("../img/bg-button-carta.png");
+}
+.menu {
+    background-image: url("../img/bg-button-menu.png");
+}
+.grupos {
+    background-image: url("../img/bg-button-grupos.png");
+}
+.nosotros {
+    background-image: url("../img/bg-button-terrazas.png");
+}
+.ambientes {
+    background-image: url("../img/bg-button-espacios.png");
+}
+.alertas {
+    background-image: url("../img/bg-button-novedades.png");
+}
+.galeria {
+    background-image: url("../img/bg-button-galeria.png");
+}
+.button.contacto {
+    background-image: url("../img/bg-button-info.png");
+}
+.btn_entrantes {
+    background-image: url("../img/bg-button-entrantes.png");
+}
+.btn_primeros {
+    background-image: url("../img/bg-button-primeros.png");
+}
+.btn_pescados {
+    background-image: url("../img/bg-button-pescados.png");
+}
+.btn_carnes {
+    background-image: url("../img/bg-button-carnes.png");
+}
+.btn_bodega {
+    background-image: url("../img/bg-button-vinos.png");
+}
+.btn_para_llevar {
+    background-image: url("../img/bg-button-tapear.png");
+}
+.pdf {
+    background-image: url("../img/bg-button-pdf.png");
+    background-size: contain;
+    height: 64px;
+}
+.subir {
+    background-image: url("../img/bg-button-subir.png");
+    background-size: contain;
+    height: 64px;
+}
+.icon.map {
+    background-image: url("../img/bg-button-icon-map.png");
+    background-size: contain;
+}
+.icon.web {
+    background-image: url("../img/bg-button-icon-web.png");
+    background-size: contain;
+}
+.icon.mail {
+    background-image: url("../img/bg-button-icon-mail.png");
+    background-size: contain;
+}
+.icon.phone {
+    background-image: url("../img/bg-button-icon-phone.png");
+    background-size: contain;
+}
+.icon.blog {
+    background-image: url("../img/bg-button-icon-blog.png");
+    background-size: contain;
+}
+.icon.trip_advisor {
+    background-image: url("../img/bg-button-icon-trip-advisor.png");
+}
+.icon.facebook {
+    background-image: url("../img/bg-button-icon-facebook.png");
+}
+.icon.google {
+    background-image: url("../img/bg-button-icon-google.png");
+}
+.icon.twitter {
+    background-image: url("../img/bg-button-icon-twitter.png");
+}
+.icon.yelp {
+    background-image: url("../img/bg-button-icon-yelp.png");
+}
+.tres {
+    height: 90px;
+}
+.normal-page .page__background {
+    background: #ffffff;
+}
+.header-title {
+    background: #d67e03;
+}
+.header-title .title {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.backButton {
+    background-image: url("../img/bg-button-back.png");
+    background-position: 0 0;
+    background-size: contain;
+    height: 35px;
+    left: 10px;
+    top: 5px;
+    width: 22px;
+}
+.buttonInfo {
+    background-image: url("../img/bg-button-icon-info.png");
+    background-position: 0 0;
+    background-size: contain;
+    height: 35px;
+    right: 10px;
+    top: 5px;
+    width: 17px;
+}
+.normal-page .page__content {
+    top: 56px !important;
+}
+.scroll-content.scrollfix.list {
+    background: none;
+}
+.price-row.vinos_list,
+.price-row {
+    border-bottom: 0 none;
+    border-top: 1px dotted #ea963b;
+}
+.price-row .name, .price-row .price {
+    font-family: 'Roboto';
+}
+.price-row .price .price-name {
+    font-family: 'Roboto_bold';
+}
+.price-row .price .price-price {
+    font-family: 'Roboto';
+}
+.name {
+    color: #000000;
+    font-family: 'Philosopher_bold';
+}
+.horizontal .title {
+    color: #000000;
+    font-family: 'Philosopher_bold';
+}
+.title-border {
+    border-bottom: 1px dotted #ea963b;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+#menu_diario_content {
+    text-align: center;
+}
+#menu_diario_content h3 {
+    color: #6f6e6e;
+    font-family: 'Philosopher';
+}
+#menu_diario_content p {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+}
+#grupos_descripcion {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+}
+.grupo.list .price-row {
+    border-bottom: 1px dotted #ea963b;
+}
+.grupo.list .price,
+.grupo.list .name {
+    color: #000000;
+    font-family: 'Philosopher_bold';
+    text-transform: capitalize;
+}
+.menu_grupo_content {
+    text-align: center;
+}
+.menu_grupo_content h4 {
+    color: #6f6e6e;
+    font-family: 'Roboto_bold';
+}
+.menu_grupo_content h4 b {
+    color: #6f6e6e;
+    font-family: 'Roboto_bold';
+}
+.menu_grupo_content p {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+}
+.menu_grupo_content p b {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+}
+.subir_container {
+    margin-top: 16px;
+}
+.description * {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.novedad_titulo {
+    color: #ea963b;
+    font-family: 'Philosopher';
+}
+.novedad_fecha,
+.short_desc {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.list-item {
+    color: #6f6e6e;
+    font-family: 'Roboto_bold';
+}
+#galeria_title {
+    font-size: 0;
+}
+#galeria_title .subsubtitle {
+    color: #000000;
+    font-family: 'Philosopher_bold';
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#redes_content * {
+    color: #6f6e6e;
+    font-family: 'Roboto';
+}
+.contact-row {
+    border-bottom: 1px dotted #ea963b;
+}
+@media screen and (min-width: 375px) {
+    .llamanos, .localizacion {
+        width: 140px;
+    }
+}
+@media screen and (min-width: 414px) {
+    .llamanos, .localizacion {
+        width: 142px;
+    }
+}
