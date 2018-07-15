@@ -1118,6 +1118,14 @@ module.controller('MenuDiarioController', function($scope) {
             }
         }
 
+        if(current_list.data.tipo_menu == 'aviso') {
+
+            if(current_list.data.text) {
+                content += '<div class="description_listado">' + current_list.data.text + '</div>';
+            }
+        }
+
+
         if(current_list.data.especialidades) {
             content += '<h3>RECOMENDACIONES</h3><div class="description_listado">' + current_list.data.especialidades + '</div>';
         }
