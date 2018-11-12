@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="es.lasterrazasdebecerril.restaurant" version="18.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="es.lasterrazasdebecerril.restaurant" version="19.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Las Terrazas</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -8,7 +8,7 @@
         Apache Cordova Team
     </author>
     <preference name="android-targetSdkVersion" value="26" />
-    <preference name="android-minSdkVersion" value="26" />
+
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -20,7 +20,7 @@
     <preference name="phonegap-version" value="cli-7.0.1" />
     <platform name="android">
         <preference name="android-targetSdkVersion" value="26" />
-        <preference name="android-minSdkVersion" value="26" />
+
         <allow-intent href="market:*" />
         <splash density="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
         <splash density="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
