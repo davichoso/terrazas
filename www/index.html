@@ -51,6 +51,76 @@
         }
 
     </script>
+
+<style>
+
+
+.bannerhome {
+    /*background: url(../../imagenes/nuevo/backgroundheader.jpg) no-repeat scroll center transparent;*/
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   /* height: 690px;*/
+    position: relative;
+}
+
+.bannerhome .wrap {
+    display: table;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+}
+
+.bannerhome .wrap .texto {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bannerhome .wrap .texto .content-texto {
+    width: 100%;
+    max-width: 410px;
+    margin: 0 auto;
+}
+
+.bannerhome p {
+    color: #ea963b;
+    font-size: 25px;
+    font-family: 'Georgia_bold';
+    line-height: 26px;
+    letter-spacing: 0.020rem;
+    margin: 0;
+}
+
+
+.bannerhome h1 {
+    font-family: 'Philosopher_bold' !important;
+    color: #fff !important;
+    font-size: 90px;
+    line-height: 45px;
+    padding-bottom: 0;
+    text-align: center;
+    letter-spacing: 0.050rem;
+}
+
+.backoscuro {
+    background-color: rgba(0,0,0,0.53);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
 </head>
 
 <body onload="loadScripts()">
@@ -69,13 +139,21 @@
                 <div class="header-logo-container">
                     <img class="img-logo" src="img/logo-dark.png"/>
                 </div>
-                <div style="position:relative;">
-                    <ons-carousel class="carousel-detail" id="home_images" var="homeSlider"
-                                  style="position:relative;"
-                                  overscrollable="" auto-scroll=""></ons-carousel>
 
-                    <div class="button nobutton slider-left" onclick="prevSlide()"></div>
-                    <div class="button nobutton slider-right" onclick="nextSlide()"></div>
+                <div class="banner1">
+                    <div class="bannerhome">
+                        <img style="display: block;max-width: 100%; height: auto;"  src="https://lasterrazasdebecerril.es/img/fotohomes/img5cc197293ad0eA18B224625214B4D8B46F9C0E23F454Fj.jpg">
+                        <div class="wrap">
+                            <div class="texto">
+                                <div class="content-texto">
+                                    <p>Restaurante</p>
+                                    <h1>Las Terrazas</h1>
+                                    <p class="text-right">De Becerril</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backoscuro"></div>
+                    </div>
                 </div>
             </div>
 
